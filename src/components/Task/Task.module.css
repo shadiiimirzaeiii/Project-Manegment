@@ -1,0 +1,10 @@
+.task {
+  width: 200px;
+  border:  solid 1px rgb(220, 220, 220);
+  padding: 5px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.task p, .task select, .task button {
+  margin-top: 10px;
+}

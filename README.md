@@ -29,7 +29,10 @@ Install dependencies:
 
 npm install
 npm run dev 
-# or
+
+
+
+
 yarn install
 Running the App
 Start the mock API server:

@@ -1,0 +1,17 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+body, ul, li {
+  color: #383838
+}
+body, p, h4, h1, li, ul{
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.main {
+  margin-top: 50px;
+}
+.main h1{
+  font-size: 30px;
+}
+.main ul {
+  margin: 100px auto auto auto;
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.main a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border:  solid 1px rgb(220, 220, 220);
+  padding: 5px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.main li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main p {
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
