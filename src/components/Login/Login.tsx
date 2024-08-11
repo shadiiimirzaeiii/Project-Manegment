@@ -20,7 +20,6 @@ const Login: React.FC = () => {
 
   const onSubmit = (values: { username: string; password: string }) => {
     if (values.username === 'admin' && values.password === 'admin') {
-      // Simulate API call
       setTimeout(() => {
        
         navigate('/project-list');

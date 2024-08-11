@@ -1,13 +1,12 @@
-// CreateProjectForm.test.tsx
 import React from 'react';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
-import projectReducer from '../../../store'; // Update the path if necessary
+import projectReducer from '../../../store'; 
 import CreateProjectForm from '../CreateProjectForm';
 
-// Mock store setup
+
 const store = configureStore({
   reducer: {
     projects: projectReducer,
@@ -42,7 +41,6 @@ describe('CreateProjectForm', () => {
   });
 
   test('submits the form and calls the Redux action', async () => {
-    // Mock the Redux dispatch function
     const mockDispatch = jest.fn();
     jest.spyOn(store, 'dispatch').mockImplementation(mockDispatch);
 

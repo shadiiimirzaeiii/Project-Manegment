@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { RootState } from '../../store'; // Adjust path if needed
+import { RootState } from '../../store'; 
 import styles from './ProjectList.module.css';
 
 const ProjectList: React.FC = () => {
